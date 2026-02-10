@@ -1,13 +1,15 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; //Librería para el manejo de escenas
-
+using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    public void CambiarEscena(string nombreDeLaEscena)
+    {
+        SceneManager.LoadScene(nombreDeLaEscena);
+    }
+
     public void ReloadCurrentScene(){
-        //Reanudamos la partida
         Time.timeScale = 1;
-        //Recargamos la escena que tenemos actualmente activa
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
