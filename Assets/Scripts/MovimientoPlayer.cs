@@ -1,5 +1,5 @@
 using UnityEngine;
-using System.Collections; // Necesario para que el temporizador funcione
+using System.Collections;
 
 public class MovimientoChef : MonoBehaviour
 {
@@ -13,12 +13,14 @@ public class MovimientoChef : MonoBehaviour
     
     private Rigidbody2D rb;
     private SpriteRenderer sprite;
+    private Animator animator; // <--- 1. Referencia al cerebro de animaciones
 
     void Start()
     {
         // Obtenemos los componentes físicos
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>(); // <--- 2. Lo conectamos al empezar
     }
 
     void Update()
@@ -28,6 +30,11 @@ public class MovimientoChef : MonoBehaviour
         
         // Aplicamos la velocidad al Rigidbody2D (Compatible con Unity 6)
         rb.linearVelocity = new Vector2(moverX * velocidad, rb.linearVelocity.y);
+
+        // --- 3
+        // Si moverX es 0, enviamos 0. Si es -1 o 1, enviamos 1.
+        animator.SetFloat("Velocidad", Mathf.Abs(moverX));
+        // ------------------------------------
 
         // 2. GIRAR EL DIBUJO (Flip)
         if (moverX > 0) 
@@ -49,23 +56,19 @@ public class MovimientoChef : MonoBehaviour
     // 4. DETECCIÓN DEL POWER-UP
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Comprobamos si el objeto tiene el tag específico
         if (other.CompareTag("PowerUPSandia"))
         {
-            Destroy(other.gameObject); // La sandía desaparece
-            StartCoroutine(ActivarSuperVelocidad()); // Iniciamos el temporizador
+            Destroy(other.gameObject);
+            StartCoroutine(ActivarSuperVelocidad());
         }
     }
 
-    // Corrutina para manejar el tiempo del efecto
     IEnumerator ActivarSuperVelocidad()
     {
-        velocidad += aumentoVelocidad; // Subimos la velocidad
-        sprite.color = new Color(1f, 0.5f, 0.5f); // Cambiamos el color a un tono rojizo/picante
-
-        yield return new WaitForSeconds(duracionEfecto); // Esperamos los segundos indicados
-
-        velocidad -= aumentoVelocidad; // Devolvemos la velocidad a la normalidad
-        sprite.color = Color.white; // Restauramos el color original del sprite
+        velocidad += aumentoVelocidad;
+        sprite.color = new Color(1f, 0.5f, 0.5f);
+        yield return new WaitForSeconds(duracionEfecto);
+        velocidad -= aumentoVelocidad;
+        sprite.color = Color.white;
     }
 }
