@@ -119,6 +119,136 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &28162865
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4885606323499912604, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_Name
+      value: flecha_senala_boton_0 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+--- !u!1001 &171885072
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4885606323499912604, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_Name
+      value: flecha_senala_boton_0 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
 --- !u!1 &239327381
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,7 +408,7 @@ RectTransform:
   - {fileID: 1370611671}
   - {fileID: 2079301831}
   - {fileID: 1671544704}
-  m_Father: {fileID: 993382123}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -334,8 +464,8 @@ Canvas:
   m_GameObject: {fileID: 739294548}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 993382122}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -476,8 +606,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 739294549}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &993382124
@@ -559,7 +688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -198.5614, y: -14.392}
+  m_AnchoredPosition: {x: -171, y: -14.392}
   m_SizeDelta: {x: 143.8824, y: 243.1102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1370611672
@@ -691,7 +820,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 91.911, y: -86.004}
+  m_AnchoredPosition: {x: 84, y: -86.004}
   m_SizeDelta: {x: 103.94, y: 99.887}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1671544705
@@ -920,10 +1049,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079301830}
   m_CullTransparentMesh: 1
+--- !u!1001 &5599210288172444324
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226778522281147446, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4885606323499912604, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
+      propertyPath: m_Name
+      value: flecha_senala_boton_0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f4ccf2203e6025c478e5cb8f5e8f37bb, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 739294549}
   - {fileID: 993382123}
   - {fileID: 581351228}
   - {fileID: 239327383}
+  - {fileID: 171885072}
+  - {fileID: 5599210288172444324}
+  - {fileID: 28162865}
