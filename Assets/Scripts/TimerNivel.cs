@@ -1,13 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro; // Sin esto, dará error
+using TMPro; 
 
 public class TimerNivel : MonoBehaviour
 {
     public float tiempoRestante = 30f;
     public string escenaADondeIr = "Lose";
-    
-    // Esta línea es la que CREA el hueco en el Inspector
     public TextMeshProUGUI textoCronometro; 
 
     void Update()
@@ -16,14 +14,17 @@ public class TimerNivel : MonoBehaviour
         {
             tiempoRestante -= Time.deltaTime;
             
-            // Si ya arrastraste el texto, lo actualiza
             if (textoCronometro != null)
             {
                 textoCronometro.text = Mathf.Ceil(tiempoRestante).ToString();
             }
         }
-        else
+        else 
         {
+            SceneLoader.nivelAntesDeGanar = SceneManager.GetActiveScene().name; 
+            
+            Time.timeScale = 1; 
+            
             SceneManager.LoadScene(escenaADondeIr);
         }
     }
